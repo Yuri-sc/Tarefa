@@ -6,12 +6,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="shortcut icon" href="#">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="yuri.css">
     <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700i" rel="stylesheet">
+    <link rel="stylesheet" href="bibli/MaterialDesign-Webfont-master/css/materialdesignicons.css">
 
     <title>Styles</title>
 </head>
@@ -19,7 +22,7 @@
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-black">
-        <h1 class="navbar-brand  " href="#"></h1>
+        <i class="mdi mdi-alpha-s-circle-outline mdi-36px"></i>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -30,20 +33,19 @@
                     <a class="nav-link" href="#">Home <span class="sr-only">(página atual)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Noticias</a>
+                    <a class="nav-link" href="#">cadastre-se</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link " href="#">Fale Conosco</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
+                Noticias
               </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Ação</a>
-                        <a class="dropdown-item" href="#">Outra ação</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Algo mais aqui</a>
+                        <a class="dropdown-item" href="#">Ultimas noticias</a>
+                        <a class="dropdown-item" href="#">Games</a>
+                        <a class="dropdown-item" href="#">Série</a>
                     </div>
                 </li>
 
@@ -73,7 +75,7 @@
                     <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero veniam vero asperiores porro, debitis tenetur nesciunt illum suscipit nulla autem.</p>
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
-                            <button type="button" class="btn btn-outline-dark">Pesquisar</button>
+                            <button type="button" class="btn btn-outline-dark">Saiba mais</button>
                         </div>
                         <small class="text-muted">1 hora</small>
                     </div>
@@ -88,7 +90,7 @@
                     <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero veniam vero asperiores porro, debitis tenetur nesciunt illum suscipit nulla autem.</p>
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
-                            <button type="button" class="btn btn-outline-dark">Pesquisar</button>
+                            <button type="button" class="btn btn-outline-dark">Saiba mais</button>
                         </div>
                         <small class="text-muted">20 mins</small>
                     </div>
@@ -102,9 +104,42 @@
                     <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero veniam vero asperiores porro, debitis tenetur nesciunt illum suscipit nulla autem.</p>
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
-                            <button type="button" class="btn btn-outline-dark">Pesquisar</button>
+                            <button type="button" class="btn btn-outline-dark">Saiba mais</button>
                         </div>
                         <small class="text-muted">1 dia</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr width="100%">
+        <div class="conteiner-fluid ">
+            <div class="row mb-2 ml-2">
+                <div class="col-md-5 ml-5 d-none d-sm-block">
+                    <div class="card flex-md-row mb-4 shadow-sm h-md-250">
+                        <div class="card-body d-flex flex-column align-items-start">
+                            <strong class="d-inline-block mb-2 text-primary">Games</strong>
+                            <h3 class="mb-0">
+                                <a class="text-dark" href="#">Post destacado</a>
+                            </h3>
+                            <div class="mb-1 text-muted">12 de Mai</div>
+                            <p class="card-text mb-auto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis ipsum numquam quos.</p>
+                            <button type="button" class="btn btn-outline-dark mt-2">Saiba mais</button>
+                        </div>
+                        <img class="card-img-right flex-auto d-none d-lg-block" src="img/not7.jpg" alt="Card image cap">
+                    </div>
+                </div>
+                <div class="col-md-5 ml-5 d-none d-sm-block">
+                    <div class="card flex-md-row mb-4 shadow-sm h-md-250">
+                        <div class="card-body d-flex flex-column align-items-start">
+                            <strong class="d-inline-block mb-2 text-success">Games</strong>
+                            <h3 class="mb-0">
+                                <a class="text-dark" href="#">Título do post</a>
+                            </h3>
+                            <div class="mb-1 text-muted">11 de Mai</div>
+                            <p class="card-text mb-auto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis ipsum numquam quos.</p>
+                            <button type="button" class="btn btn-outline-dark mt-2">Saiba mais</button>
+                        </div>
+                        <img class="card-img-right flex-auto d-none d-lg-block border " src="img/not8.jpg" alt="Card image cap">
                     </div>
                 </div>
             </div>
@@ -112,6 +147,99 @@
 
 
 
+        <main role="main" class="container">
+            <div class="row">
+                <div class="col-md-8 blog-main">
+
+                    <div class="blog-post">
+                        <h2 class="blog-post-title">Alguma Coisa</h2>
+                        <p class="blog-post-meta">Escrito por <a href="#">Michael</a>, em 1 de Janeiro de 2018.</p>
+
+                        <p>Este post mostra alguns diferentes tipos de conteúdos que são suportados e estilizados com Bootstrap. Tipografia básica, imagens e códigos são todos suportados.</p>
+
+                        <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras
+                            mattis consectetur purus sit amet fermentum.</p>
+                        <blockquote>
+                            <p>Curabitur blandit tempus porttitor. <strong>Nullam quis risus eget urna mollis</strong> ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                        </blockquote>
+                        <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+                        <h2>Outra coisa</h2>
+                        <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+                    </div>
+                </div>
+                <aside class="col-md-4 blog-sidebar">
+                    <div class="p-3 mb-3 mt-5 bg-white rounded border-left border-dark">
+                        <h4 class="">Sobre</h4>
+                        <p class="mb-0">Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+                    </div>
+
+                    <div class="p-3">
+                        <h4 class="font-italic">Últimos Reviews</h4>
+                        <ol class="list-unstyled mb-0">
+                            <li> <i class="mdi mdi-send-outline mdi= 24px "></i><a class="text-dark" href="#">Children of Morta</a></li>
+                            <li><i class="mdi mdi-send-outline mdi= 24px "></i><a class="text-dark" href="#">Fallout 76 Wastelanders</a></li>
+                            <li><i class="mdi mdi-send-outline mdi= 24px "></i><a class="text-dark" href="#">Trials of Mana</a></li>
+                            <li><i class="mdi mdi-send-outline mdi= 24px "></i><a class="text-dark" href="#">Streets of Rage 4</a></li>
+                            <li><i class="mdi mdi-send-outline mdi= 24px "></i><a class="text-dark" href="#">Gears Tactics</a></li>
+                            <li><i class="mdi mdi-send-outline mdi= 24px "></i><a class="text-dark" href="#">Good Job!</a></li>
+
+
+                        </ol>
+                    </div>
+
+
+            </div>
+            </aside>
+    </div>
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <hr width="100%">
+    <footer class="container py-5">
+        <div class="row">
+            <div class="col-12 col-md ml-3">
+                <i class="mdi mdi-alpha-s-circle-outline mdi-36px"></i>
+                <small class="d-block mb-3 text-muted">&copy; 2017-2018</small>
+            </div>
+
+            <div class="col-6 col-md">
+                <h5>Mapa</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="text-muted" href="#">Home</a></li>
+                    <li><a class="text-muted" href="#">Fale conosco</a></li>
+                    <li><a class="text-muted" href="#">Séries</a></li>
+                    <li><a class="text-muted" href="#">Games</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md mr-5">
+                <h5>Sobre</h5>
+                <ul class="list-unstyled text-small">
+                    <i class="mdi mdi-facebook mdi-24px "></i> Yuricosta <br>
+                    <i class="mdi mdi-instagram mdi-24px "></i> @yuriis.c <br>
+                    <i class="mdi mdi-whatsapp mdi-24px "></i> (14) 99609-3144 <br>
+                    <i class="mdi mdi-email mdi-24px "></i>yurisantiagodacosta@gmail.com
+                </ul>
+            </div>
+        </div>
+    </footer>
 
 
 
@@ -148,14 +276,26 @@
 
 
 
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <!--Script carousel-->
+    <script>
+        // Activate Carousel
+        $("#myCarousel").carousel();
 
+        // Enable Carousel Indicators
+        $(".item").click(function() {
+            $("#myCarousel").carousel(1);
+        });
 
-
-        <!-- JavaScript (Opcional) -->
-        <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        // Enable Carousel Controls
+        $(".left").click(function() {
+            $("#myCarousel").carousel("prev");
+        });
+    </script>
 </body>
 
 </html>
